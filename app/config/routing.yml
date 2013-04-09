@@ -1,0 +1,11 @@
+teaser_teaser:
+    resource: "@TeaserTeaserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+    
+NelmioJsLoggerBundle:
+    resource: "@NelmioJsLoggerBundle/Resources/config/routing.xml"
+    prefix:   /nelmio-js-logger
